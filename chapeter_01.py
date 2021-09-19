@@ -22,15 +22,18 @@ baby_names.pop(1)
 print(baby_names)
 
 #1.2 Loop over records 
+
 # Create the empty list: baby_names
 baby_names = []
 
 # Loop over records 
 for row in records:
     # Add the name to the list
-    baby_names.append(records)
+    baby_names.append(row[3])
     
 # Sort the names in alphabetical order
-for name in sorted():
+for name in sorted(baby_names):
     # Print each name
     print(name)
+
+#1.3 Loop over records 
